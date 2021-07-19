@@ -159,6 +159,26 @@
                 box-shadow: 0 0 8px #e15309;
                 transition: .5s;
             }
+
+            .cus-sec-btn {
+                color: #fff;
+                padding: 8px 19px 8px 19px !important;
+                background-color: #5593ce;
+                transition: .5s;
+                border-radius: 4px;
+                font-weight: 100;
+                text-decoration: none;
+                box-shadow: 0 0 8px #5593ce;
+            }
+
+            .cus-sec-btn:hover {
+                color: #fff;
+                padding: 8px 19px 8px 19px;
+                font-weight: 900;
+                background-color: #134f86;
+                box-shadow: 0 0 8px #5593ce;
+                transition: .5s;
+            }
         }
 
         .text-center-sm {
