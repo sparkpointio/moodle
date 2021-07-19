@@ -238,7 +238,7 @@ class course_renderer extends \core_course_renderer {
         $courselink = new moodle_url('/course/view.php', array('id' => $course->id));
         $coursenamelink = html_writer::link($courselink, $coursename, array('class' => $course->visible ? '' : 'dimmed'));
 
-        $content = html_writer::start_tag('div', ['class' => 'course-card-background']);
+        $content = html_writer::start_tag('div', ['class' => 'course-card-background', 'onclick' => 'window.location=\''.$courselink.'\';']);
         $content .= $this->course_card_body($chelper, $course, $coursenamelink);
         $content .= extras::get_course_summary_image($course, $courselink);
         // $content .= $this->course_contacts($course);
