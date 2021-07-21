@@ -145,6 +145,7 @@ $card-gutter : $card-deck-margin * 2;
 .dashboard-card-deck.one-row {
     flex-flow: nowrap;
     overflow-x: scroll;
+    justify-content: center !important;
 }
 
 .summaryimage {
@@ -162,7 +163,7 @@ $card-gutter : $card-deck-margin * 2;
         flex-grow: 0;
         flex-shrink: 0;
         .dashboard-card-img {
-            height: 7rem;
+            height: 9rem;
             background-position: center;
             background-size: cover;
         }
