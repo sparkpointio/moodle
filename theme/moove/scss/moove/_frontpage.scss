@@ -154,7 +154,7 @@ html {
     }  
 
     #page-testimonial {
-        min-height: 602px;
+        min-height: 775px;
         // padding: 0 4rem;
     }
     
@@ -475,7 +475,7 @@ html {
             flex-basis: calc(30% - 1rem);
             text-align: center;
             margin: auto;
-            height: 16rem;
+            height: 26rem;
             border-radius: 16px;
 
             img {
@@ -521,7 +521,7 @@ html {
           }
 
         .student-photo {
-            border-radius: 50%;
+            border-radius: 0;
             width: 8rem;
             height: 8rem;
             margin: auto;
