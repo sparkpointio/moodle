@@ -638,6 +638,13 @@ html {
             color: red;
         }
 
+        @media(min-width: 320px) and (max-width: 720px){
+            .cus-mx-auto {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
     }
 
     .frontpage-social-icons {
