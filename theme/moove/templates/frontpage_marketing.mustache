@@ -28,44 +28,81 @@
         "marketing1url": "https://marketingurl..."
     }
 }}
+
 {{#shoulddisplaymarketing}}
-    <div class="frontpage-marketing">
-        <div class="container">
-            <div class="card-deck">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="{{{ marketing1icon }}}" />
-                        <h2>{{{ marketing1heading }}}</h2>
-                        <h3>{{{ marketing1subheading }}}</h3>
-                        <p>{{{ marketing1content }}}</p>
-                        {{#marketing1url}}<a class="btn btn-primary" href="{{{ marketing1url }}}">{{#str}}readmore, theme_moove{{/str}}</a>{{/marketing1url}}
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <img src="{{{ marketing2icon }}}" />
-                        <h2>{{{ marketing2heading }}}</h2>
-                        <h3>{{{ marketing2subheading }}}</h3>
-                        <p>{{{ marketing2content }}}</p>
-                        {{#marketing2url}}<a class="btn btn-primary" href="{{{ marketing2url }}}">{{#str}}readmore, theme_moove{{/str}}</a>{{/marketing2url}}
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <img src="{{{ marketing3icon }}}" />
-                        <h2>{{{ marketing3heading }}}</h2>
-                        <h3>{{{ marketing3subheading }}}</h3>
-                        <p>{{{ marketing3content }}}</p>
-                        {{#marketing3url}}<a class="btn btn-primary" href="{{{ marketing3url }}}">{{#str}}readmore, theme_moove{{/str}}</a>{{/marketing3url}}
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <img src="{{{ marketing4icon }}}" />
-                        <h2>{{{ marketing4heading }}}</h2>
-                        <h3>{{{ marketing4subheading }}}</h3>
-                        <p>{{{ marketing4content }}}</p>
-                        {{#marketing4url}}<a class="btn btn-primary" href="{{{ marketing4url }}}">{{#str}}readmore, theme_moove{{/str}}</a>{{/marketing4url}}
+    <div id="page-marketing" class="frontpage-marketing">
+        <div class="container mt-5">
+            <div class="marketing-header">
+                <h4 class="text-center">OUR GOAL ON SPARKLEARN</h4>
+                <h2 class="text-center ml-auto">TO FAST-TRACK MAINSTREAM ADOPTION OF BLOCKCHAIN TECHNOLOGY AND CRYPTOCURRENCY</h2>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-12 col-9">
+                    <div class="row justify-content-center">
+                        <div class="col-4 px-2 my-4 marketing-card">
+                            <div class="col-sm text-center">
+                                <h2 class="ml-auto mr-auto p-2 mkt-hd">Teach</h2>
+                               {{!  <h2 class="bg-white ml-auto mr-auto p-2 mkt-hd">{{{ marketing1heading </h2> }}
+                            </div>
+                            <div class="card">
+                                <div class="card-body marketing-item">
+                                    <img src="{{{ marketing1icon }}}" />
+                                    {{! <h3>{{{ marketing1subheading </h3> }}
+                                    {{! <p>{{{ marketing1content </p> }}
+                                    <p>
+                                        Promote mass adoption of blockchain technology & cryptocurrency as well as financial literacy through education.
+                                    </p>
+                                    {{#marketing1url}}<a class="btn btn-primary" href ="{{{ marketing1url }}}">{{#str}}readmore, theme_moove{{/str}}</a>{{/marketing1url}}
+                                </div>
+                                <div class="bottom-sticky">
+                                    <a href="#page-contact">
+                                        <button class="float-right mr-3 mb-2 marketing-btn">Be a mentor</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 my-4 marketing-card">
+                            <div class="col-sm text-center">
+                                <h2 class="ml-auto mr-auto p-2 mkt-hd">Learn</h2>
+                                {{!<h2 class="bg-white ml-auto mr-auto p-2 mkt-hd">{{{ marketing2heading</h2> }}
+                            </div>
+                            <div class="card">
+                                <div class="card-body marketing-item">
+                                    <img src="{{{ marketing2icon }}}" />
+                                    {{! <h3>{{{ marketing1subheading </h3> }}
+                                    {{! <p>{{{ marketing1content </p> }}
+                                    <p>
+                                        Gain knowledge needed to navigate in the cryptocurrency space. 
+                                    </p>
+                                    {{#marketing1url}}<a class="btn btn-primary" href="{{{ marketing1url }}}">{{#str}}readmore, theme_moove{{/str}}</a>{{/marketing1url}}
+                                </div>
+                                <div class="bottom-sticky">
+                                        <a href="https://earn.sparkpoint.io/register" target="_blank">
+                                            <button class="float-right mr-3 mb-2 marketing-btn">Register now</button>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 my-4 marketing-card">
+                            <div class="col-sm text-center">
+                                <h2 class="ml-auto mr-auto p-2 mkt-hd">Earn</h2>
+                                {{!<h2 class="bg-white ml-auto mr-auto p-2 mkt-hd">{{{ marketing3heading</h2> }}
+                            </div>
+                            <div class="card">
+                                <div class="card-body marketing-item">
+                                    <img src="{{{ marketing3icon }}}" />
+                                    {{! <h3>{{{ marketing1subheading </h3> }}
+                                    {{! <p>{{{ marketing1content </p> }}
+                                    <p> 
+                                        Finish learning tasks or contribute crypto educational materials for the community.
+                                    </p>
+                                    {{#marketing1url}}<a class="btn btn-primary" href="{{{ marketing1url }}}">{{#str}}readmore, theme_moove{{/str}}</a>{{/marketing1url}}
+                                </div>
+                                <div class="bottom-sticky">
+                                        <button class="float-right mr-3 mb-2 marketing-btn" disabled>Coming soon</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

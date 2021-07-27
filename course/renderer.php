@@ -2450,7 +2450,7 @@ class core_course_renderer extends plugin_renderer_base {
                 case FRONTPAGEALLCOURSELIST:
                     $availablecourseshtml = $this->frontpage_available_courses();
                     $output .= $this->frontpage_part('skipavailablecourses', 'frontpage-available-course-list',
-                        get_string('availablecourses'), $availablecourseshtml);
+                        "", $availablecourseshtml);
                     break;
 
                 case FRONTPAGECATEGORYNAMES:
@@ -2781,7 +2781,7 @@ class coursecat_helper {
         if (!isset($options['context'])) {
             $options['context'] = context_course::instance($course->id);
         }
-        $name = format_string(get_course_display_name_for_list($course), true, $options);
+        $name = format_string(get_course_display_shortname_for_list($course), true, $options);
         if (!empty($this->searchcriteria['search'])) {
             $name = highlight($this->searchcriteria['search'], $name);
         }
