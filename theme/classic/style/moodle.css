@@ -10024,7 +10024,7 @@ div.dropdown-item a[role="button"] {
   outline: 0;
   box-shadow: none; }
 
-/* .usermenu:focus-within, */
+.usermenu:focus-within,
 div.dropdown-item:focus-within {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(17, 119, 209, 0.75); }
