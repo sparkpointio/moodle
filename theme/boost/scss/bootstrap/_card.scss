@@ -117,6 +117,7 @@
   color: $card-cap-color;
   background-color: $card-cap-bg;
   border-top: $card-border-width solid $card-border-color;
+  display: none!important;
 
   &:last-child {
     @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
