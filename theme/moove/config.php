@@ -197,12 +197,5 @@ $THEME->layouts = [
         'file' => 'secure.php',
         'regions' => array('side-pre'),
         'defaultregion' => 'side-pre'
-    ),
-    // The faq page
-    'faq' => array(
-        'file' => 'faq.php',
-        'regions' => array('side-pre'),
-        'defaultregion' => 'side-pre',
-        'options' => array('nonavbar' => true),
     )
 ];
