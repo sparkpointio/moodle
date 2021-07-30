@@ -157,7 +157,7 @@
     }
 
     &.drawer-open-left {
-      // margin-left: 55px;
+      margin-left: 55px;
     }
   }
 
@@ -192,10 +192,10 @@
 
 @media (min-width: 768px) {
   body {
-    // margin-left: 55px;
+    margin-left: 55px;
 
     &.drawer-open-left {
-      // margin-left: 280px;
+      margin-left: 280px;
     }
 
     &.drawer-open-right {
@@ -223,7 +223,7 @@
   }
 
   .pagelayout-mydashboard .card-deck .card {
-    flex-basis: calc(25% - .5rem);
+    flex-basis: calc(50% - .5rem);
   }
 }
 
